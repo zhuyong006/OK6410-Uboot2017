@@ -1,0 +1,7 @@
+1.fdt需要改
+2.timer需要注意    ----timer_get_boot_us
+3.CONFIG_SYS_ICACHE_OFF
+4.initf_dm扫描设备树上的所有设备
+5.env_get_default_location   CONFIG_ENV_IS_IN_FAT改为CONFIG_ENV_IS_IN_NAND
+6.drivers\serial\Serial_pl01x.c  board_f.c
+7.
